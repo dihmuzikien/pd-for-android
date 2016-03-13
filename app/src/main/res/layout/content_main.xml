@@ -12,8 +12,12 @@
     tools:context="complexability.puremotionmusic.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="On"
+        android:id="@+id/onOffSwitch"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:checked="false" />
 </RelativeLayout>
